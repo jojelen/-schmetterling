@@ -1,5 +1,7 @@
 import argparse
 import logging
+
+from models.yolov3 import YOLOv3
 from utils.misc import print_versions
 
 
@@ -18,6 +20,10 @@ def main():
                 format='%(levelname)s:%(asctime)s: %(message)s',
                 datefmt='%Y-%m-%d %H:%M')
         print_versions()
+
+    model = YOLOv3(training=True)
+
+    model.summary()
 
     train(args)
 
