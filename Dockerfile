@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.3.1
+FROM tensorflow/tensorflow:2.6.0
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -8,7 +8,8 @@ RUN apt-get -y update && \
     build-essential \
     git \
     python3 \
-    python3-pip
+    python3-pip \
+    python3-opencv
 
 RUN pip install opencv-python \
     numpy \
