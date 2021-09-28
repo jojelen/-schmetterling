@@ -3,7 +3,7 @@ import argparse
 import logging
 
 parser = argparse.ArgumentParser(description='Image viewer')
-parser.add_argument('file', type=str, help='debug mode')
+parser.add_argument('file', type=str, help='Image file')
 parser.add_argument('-d', dest='debug', action='store_true', help='debug mode')
 
 
