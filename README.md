@@ -5,7 +5,7 @@ Neural networks and stuff.
 
 ## YOLOv3
 
-[ ] Write CNN model.
+[X] Write CNN model.
 [X] Enable importing of weights from darknet.
         It runs, but hasn't been checked to be correct.
 [ ] Make an inference with the imported weights.
