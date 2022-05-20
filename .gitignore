@@ -1,3 +1,4 @@
 res
 *.pyc
 .idea
+**/.ipynb_checkpoints
